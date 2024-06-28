@@ -12,5 +12,13 @@
     "status": "Success",
     "fileName": "cv24.docx",
     "notifiedAdmins": "Admin notified"
+  },
+  {
+    "timestamp": "2024-06-28T15:59:07.036Z",
+    "chatId": 524677552,
+    "email": "gg@gg.ie",
+    "status": "Success",
+    "fileName": "cv24.docx",
+    "notifiedAdmins": "Admin notified"
   }
 ]

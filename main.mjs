@@ -25,6 +25,10 @@ bot.onText(/\/start/, (msg) => {
 
 bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
+
+    // Ignore messages from the admin group chat
+    if (chatId.toString() === ADMIN_GROUP_CHAT_ID) return;
+
     const text = msg.text;
 
     if (text === '/start') return;
@@ -112,7 +116,7 @@ async function notifyAdmin(email, fileName) {
     try {
         await bot.sendMessage(
             ADMIN_GROUP_CHAT_ID, 
-            `*New Registration* \n\n*Email:* ${email} \n*File:* ${fileName} \n*Via:* Telegram`, 
+            `*New resume submitted:* \n*Email:* ${email} \n*Filename:* ${fileName} \n*Method:* Telegram Bot`, 
             { parse_mode: 'Markdown' }
         );
     } catch (error) {
