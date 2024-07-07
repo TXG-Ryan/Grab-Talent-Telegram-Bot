@@ -20,5 +20,29 @@
     "status": "Success",
     "fileName": "cv24.docx",
     "notifiedAdmins": "Admin notified"
+  },
+  {
+    "timestamp": "2024-06-28T16:30:27.824Z",
+    "chatId": 524677552,
+    "email": "h@h.o",
+    "status": "Success",
+    "fileName": "cv24.docx",
+    "notifiedAdmins": "Admin notified"
+  },
+  {
+    "timestamp": "2024-06-28T20:20:50.569Z",
+    "chatId": 524677552,
+    "email": "Test.email@testmail.com",
+    "status": "Success",
+    "fileName": "cv24.docx",
+    "notifiedAdmins": "Admin notified"
+  },
+  {
+    "timestamp": "2024-06-28T21:04:52.896Z",
+    "chatId": 524677552,
+    "email": "ryan.brown@grabtalent.io",
+    "status": "Success",
+    "fileName": "cv24.docx",
+    "notifiedAdmins": "Admin notified"
   }
 ]
